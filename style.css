@@ -1,0 +1,347 @@
+body{
+    padding: 0px;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: beige;
+}
+.container{
+    margin: auto;
+    box-shadow: none;
+    outline: none;
+    padding: 0px;
+}
+
+.header{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header > h2{
+    color: rgb(88, 6, 6);
+    text-align: center;
+    padding-top: 0px;
+    margin: 0px;
+}
+
+.header > #caption{
+    color: black;
+    text-align: center;
+    margin-top: -1px;
+}
+
+.nav_bar{
+    position: relative;
+    display: flex;
+    padding: 10px 30px;
+    justify-content: space-around;
+}
+
+.logo{
+    padding-top: 0px;
+    margin: 0px ;
+    text-align: center;
+
+}
+
+hr{
+    color: black;
+    background-color: black;
+}
+
+.men{
+    background-color: beige;
+    text-align: center;
+    padding-bottom: 10px;
+    position: sticky;
+    width: 100%;
+    height: 30px;
+    top: 0px;
+    z-index: 2;
+}
+
+.menu{
+    text-align: center;
+    position: sticky;
+    z-index: 3;
+}
+
+.menu a{
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(239, 158, 7);
+    margin: 10px 20px;
+}
+
+.menu a:hover{
+    color: rgb(113, 23, 23);
+    background-color: rgb(243, 212, 155);
+    border-radius: 5px;
+}
+
+.menu a:focus{
+    /* text-decoration: underline; */
+    /* border: 2px solid rgb(239, 158, 7); */
+    background-color: rgb(242, 202, 129);
+    border-radius: 5px;
+    border-width: 3px;
+    height: 1rem;
+
+}
+
+.content{
+    height: 100%;
+    background-image: url(./foodbg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 0px;
+    color: rgb(88, 6, 6);
+}
+
+.content .details{
+    backdrop-filter: blur(3px) ;
+    height: 100%;
+    z-index: 0;
+    padding-top: 30px;
+}
+
+.content .details .others{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    padding: 50px 70px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.other{
+    margin: 10px;
+    /* background-color: white; */
+    /* height: 400px;
+    width: 50px; */
+    text-align: center;
+    /* border: 3px solid black; */
+    
+    
+}
+
+
+
+.all_btns{
+    background-color: wheat;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.con_body{
+    padding: 0px;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: beige;
+    background-image: url(foodbg2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+    
+}
+
+.con_form{
+    position: relative;
+    /* margin-left: 300px; */
+    margin-top: 50px;
+    padding: 20px;
+    height: 100%;
+    width: 96%;
+    align-items: center;
+    justify-content: space-around;
+    backdrop-filter: blur(3px);
+    
+    /* background-color: white; */
+    /* text-align: center; */
+    /* box-shadow: 2px 5px 10px rgb(44, 44, 24); */
+}
+
+.con_form .header h2{
+    color: white;
+    text-align: left;
+}
+
+.con_form .form{
+    
+    /* display: grid;
+    justify-content: space-between; */
+
+    /* background-image: url(contact-us-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+
+.con_form .form > .form_texts{
+    font-size: 20px;
+    color: white;
+    padding-left: 0px;
+    text-align: left;
+}
+
+.con_form .form > .contacts{
+    padding-left: 25%;
+    /* display: grid; */
+    grid-template-columns: auto auto;
+    column-gap: 10em;
+    position: relative;
+    justify-content: space-between;
+}
+.con_form .form > .contacts > form{
+    background-color: white;
+    color: black;
+    position: relative;
+    align-items: center;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 600px;
+}
+
+.con_form .form > .contacts > form > label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-size: 18px;
+    color: rgb(230, 139, 20);
+}
+
+.con_form .form > .contacts > form > input,
+.con_form .form > .contacts > form > select{
+    display: inline;
+    padding: 3px;
+    width: 200px;
+    height: 20px;
+    border-radius: 3px;
+    letter-spacing: 3px;
+    margin-right: 10px;
+    outline: none;
+}
+
+.con_form .form > .contacts > form > input:focus,
+.con_form .form > .contacts > form > select:focus{
+    outline: none;
+}
+
+.con_form .form > .contacts > form > input[type="email"],
+.con_form .form > .contacts > form > select{
+    width: 500px;
+}
+
+.con_form .form > .contacts > form > input[type="radio"]{
+    width: 2em;
+    /* display: inline; */
+    height: 1.5em;
+}
+
+/* .con_form .form > .contacts > form > input[type="radio"]:focus{
+    color: black;
+} */
+
+.con_form .form > .contacts > form > #submit{
+    display: block;
+    width: 200px;
+    height: 2em;
+    position: relative;
+    margin-left: 200px;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: rgb(251, 168, 15);
+    border-radius: 7px;
+    border-color: rgb(241, 158, 6);
+}
+
+.con_form  .socials strong{
+    display: block;
+    font-size: 20px;
+    
+}
+
+.con_form .socials .SM > .SM1 ,
+.con_form .socials .SM > .SM2 {
+    justify-content: space-around;
+}
+
+.con_form .socials .SM > .SM1 img,
+.con_form .socials .SM > .SM2 img{
+    display: inline;
+    margin-top: 30px;
+    padding-left: 50px;
+    /* text-align: center; */
+}
+
+.con_form  .socials > .SM > .SM1 .social_name,
+.con_form  .socials > .SM > .SM2 .social_name{
+    display: inline;
+    /* position: relative;
+    height: 70px;
+    width: 50px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align:center;
+    vertical-align:middle;
+    border: 2px solid white;
+    justify-content: center;
+     */
+}
+
+
+
+.ourstory{
+    background-color: rgb(34, 14, 14);
+    color: white;
+    height: 200px;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 15px 5px;
+    font-size: 20px;
+    
+}
+
+.food > h1{
+    margin: 10px;
+}
+.food > .food_para{
+    display: flex;
+    height: 400px;
+    background-color: white;
+    border-radius: 100px;
+    margin: 15px 5px;
+}
+.food > .food_para img{
+    width: 50%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    
+}
+
+.food > .food_para p{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+.conclusion{
+    background-color: rgb(34, 14, 14);
+    color: white;
+    font-size: large;
+    height: 150px;
+    padding: 10px;
+    padding-top: 100px;
+    /* border-radius: 50%; */
+    text-align: center;
+    margin: 15px 5px;
+}
