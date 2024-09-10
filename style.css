@@ -91,7 +91,7 @@ hr{
 
 .content{
     height: 100%;
-    background-image: url(./foodbg.webp);
+    background: url(./foodbg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -130,7 +130,7 @@ hr{
 
 
 .all_btns{
-    background-color: wheat;
+    background: linear-gradient(rgb(151, 100, 6),rgb(235, 214, 175),rgb(129, 86, 7));
     border-radius: 10px;
     padding: 15px;
 }
@@ -206,7 +206,8 @@ hr{
     width: 600px;
 }
 
-.con_form .form > .contacts > form > label{
+.con_form .form > .contacts > form > label,
+.con_form .form > .contacts > form #radio_caption{
     display: block;
     margin-top: 10px;
     margin-bottom: 3px;
@@ -345,3 +346,4 @@ hr{
     text-align: center;
     margin: 15px 5px;
 }
+

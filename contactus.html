@@ -40,13 +40,16 @@
                     <input type="text" placeholder="First" required> <input type="text" placeholder="Last" required>
 
                     <label for="email">Email</label>
-                    <input type="email"  required>
+                    <input type="email" required>
 
                     <label for="tel">Tel</label>
                     <input type="text" placeholder="+234 000 0000 000" pattern="[+234]{4} [0-9]{3} [0-9]{4} [0-9]{3}">
 
-                    <label for="gender">Male or Female?</label>
-                    <input type="radio" name="gender">Male &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <input type="radio" name="gender">Female
+                    <fieldset>
+                        <legend id="radio_caption">Male or Female?</legend>
+                        <label for=""><input type="radio" name="gender" value="male">Male</label>
+                        <label for=""><input type="radio" name="gender" value="female">Female</label>
+                    </fieldset>
 
                     <label for="about">Suggestion/Complaint</label>
                     <textarea name="comment" id="comment" cols="80" rows="10"></textarea>
@@ -54,35 +57,39 @@
                     <button type="submit" id="submit">Submit</button>
 
                 </form>
-                
-                
+
+
 
 
             </div>
-            
+
 
 
         </div>
 
         <div class="socials">
             <strong>Follow us on social media to get updates on our latest specials and more</strong>
-            
+
             <div class="SM">
                 <div class="SM1">
-                    <img src="./ig.webp" alt="IG logo" width="50" height="40"> <div class="social_name">@FushiFoods</div>
-                    <img src="./2023_Facebook_icon.svg.png" alt="Fb logo" width="50" height="40"> <div class="social_name">@FushiFoodsspecials</div>
+                    <img src="./ig.webp" alt="IG logo" width="50" height="40">
+                    <div class="social_name">@FushiFoods</div>
+                    <img src="./2023_Facebook_icon.svg.png" alt="Fb logo" width="50" height="40">
+                    <div class="social_name">@FushiFoodsspecials</div>
 
                 </div>
 
                 <div class="SM2">
-                    <img src="./tiktok.png" alt="tiktok logo" width="50" height="40"> <div class="social_name">@Fushi_Foods</div>
-                    <img src="./whatsapp.png" alt="whatsapp logo" width="50" height="40"> <div class="social_name">FushiFoodschannel</div>
+                    <img src="./tiktok.png" alt="tiktok logo" width="50" height="40">
+                    <div class="social_name">@Fushi_Foods</div>
+                    <img src="./whatsapp.png" alt="whatsapp logo" width="50" height="40">
+                    <div class="social_name">FushiFoodschannel</div>
                 </div>
-                
-                
+
+
             </div>
 
-    </div>
+        </div>
 </body>
 
 </html>
